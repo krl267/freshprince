@@ -1,0 +1,129 @@
+body {
+    /*Typography Declarations */
+    color: #222222;
+    font-size:1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+ margin:-.1em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /*typography declarations */
+    font-weight: 300;
+    letter-spacing:.05em;
+}
+
+.introduction-section > h1,
+.location-section > h1,
+.questions-section > h1 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    padding-top:1em;
+}
+
+.questions-section > h1 {
+    margin-bottom:-1em;
+}
+
+.questions-section > h2 {
+    /*Typography declarations*/
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size:1.2em;
+    font-weight:bold;
+    color:#4F6874;
+    /*Layout declarations*/
+    margin:2em 0 1em 0;
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer {
+    text-align:center;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url('http://img.photobucket.com/albums/v208/gilly_monster/background_zpslfessads.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    border-top: solid 1.5em #212A50;
+}
+
+.masthead-intro {
+    margin-bottom:0.1em;
+    font-family: "Gentium Book Basic", Geogia, serif;
+    font-size:2em;
+    color: #4F6874;
+}
+
+.masthead-heading {
+    margin-top: -.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight:bold;
+    font-size:6em;
+    letter-spacing:.02em;
+    text-transform: uppercase;
+    color: #212A50;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2em;
+}
+
+a {
+    color:#212A50;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover {
+color:#4F6874;
+}
+
+.social > li {
+    display:inline-block;
+    padding:0 3em 0 3em;
+    }
+
+.social  > li> a:visited,
+.social > li > a:link,
+.content-footer > p > a:link,
+.content-footer > p > a:visited {
+  color:white;
+  text-decoration:none;
+  }
+
+.social > li > a:hover,
+.content-footer > p > a:hover {
+  font-weight:bold;
+}
+
+.content-footer > p {
+     color: #9D9C93;
+     text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.content-footer {
+    background-color: #40372D;
+    padding:4em;
+}
+
+.questions-section {
+  margin-bottom:4em;
+}
+
+
+
+
+
+
+
+
